@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">HocDiffutilsListAdapter</string>
+    <string name="ADD">Add</string>
+    <string name="nhap_id">Nhap id</string>
+    <string name="nhap_email">Nhap email</string>
+    <string name="n_i_dung">Nội dung</string>
+    <string name="sao">Sao</string>
+    <string name="nga_y">Ngày</string>
+    <string name="a_nh_gia_1">Đánh giá 1</string>
+    <string name="noi_dung">Noi dung</string>
+    <string name="s_sao">Số sao</string>
+    <string-array name="option">
+        <item>Tùy chọn</item>
+        <item>Edit</item>
+        <item>Delete</item>
+
+    </string-array>
+</resources>

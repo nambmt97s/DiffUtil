@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardElevation="2sp">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="5sp">
+
+        <TextView
+            android:id="@+id/txtPositionRating"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/a_nh_gia_1"
+            android:textSize="20sp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/txtContenRating"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/n_i_dung"
+            android:textColor="@color/colorBlack"
+            android:textSize="18sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="100">
+
+            <TextView
+                android:id="@+id/txtRate"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="85"
+                android:text="@string/sao"
+                android:textColor="@color/colorBlack"
+                android:textSize="18sp" />
+
+            <Spinner
+                android:id="@+id/spinner2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="15">
+
+            </Spinner>
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/txtDateRating"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/nga_y"
+            android:textColor="@color/colorBlack"
+            android:textSize="18sp" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
